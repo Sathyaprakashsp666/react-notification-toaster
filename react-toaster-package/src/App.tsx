@@ -46,12 +46,10 @@ function App() {
       <div className="App">
         {NotificationComponent}
         <h1>Toast Component</h1>
-        <div className="btn-container">
-          <button onClick={handleButtonClickSuccess}> Success</button>
-          <button onClick={handleButtonClickFailed}> Failed</button>
-          <button onClick={handleButtonClicWarning}> Warning</button>
-          <button onClick={handleButtonClickInfo}> Information</button>
-        </div>
+        <button onClick={handleButtonClickSuccess}> Success</button>
+        <button onClick={handleButtonClickFailed}> Failed</button>
+        <button onClick={handleButtonClicWarning}> Warning</button>
+        <button onClick={handleButtonClickInfo}> Information</button>
       </div>
     </>
   );
